@@ -1,0 +1,10 @@
+{
+    "Walnut Stain": {
+      "lab": [55.2, 9.3, 18.7],
+      "tolerance": 2.5
+    },
+    "White Satin": {
+      "lab": [94.8, 0.2, 2.1],
+      "tolerance": 1.5
+    }
+  }
