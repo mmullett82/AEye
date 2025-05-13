@@ -78,3 +78,19 @@ Intelligent pigment correction suggestions
 Visual touch UI for production floors
 
 Future machine learning and predictive analytics
+
+## Development Environment
+
+This project is configured to run in a VS Code Dev Container using Docker.
+
+### Requirements
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Dev Containers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo

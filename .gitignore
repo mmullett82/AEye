@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+
+# VS Code settings
+.vscode/
+.history/
+
+# Devcontainer + Docker (optional if you want to exclude)
+.devcontainer/
+Dockerfile
+*.log
+*.tar
+docker-compose.override.yml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS system files
+.DS_Store
+
+# PyQt5 build cache (if used)
+build/
