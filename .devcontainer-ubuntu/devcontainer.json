@@ -1,5 +1,5 @@
 {
-  "name": "AEye Dev",
+  "name": "AEye Dev Ubuntu",
   "context": "..",
   "build": {
     "dockerfile": "../Dockerfile"
@@ -24,12 +24,13 @@
   ],
   "runArgs": [
     "--privileged",
-    "--device=/dev/video0:/dev/video0",
-    "--device=/dev/video1:/dev/video1",
-    "--device=/dev/video2:/dev/video2",
-    "--device=/dev/video3:/dev/video3",
-    "--device=/dev/video4:/dev/video4",
-    "-v", "/dev/bus/usb:/dev/bus/usb"
+    "--device=/dev/video0",
+    "--device=/dev/video1", 
+    "--device=/dev/video2",
+    "--device=/dev/video3",
+    "--device=/dev/video4",
+    "-v", "/dev/bus/usb:/dev/bus/usb",
+    "--network=host"
   ],
   "postCreateCommand": "apt-get update && apt-get install -y v4l-utils usbutils"
 }
