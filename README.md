@@ -94,3 +94,9 @@ This project is configured to run in a VS Code Dev Container using Docker.
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+
+# AEye Color Matching System – Local Development Setup
+
+## 🔹 Setup Local Virtual Environment
+```bash
+./setup_local_dev.sh

@@ -2,14 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # C extensions
 *.so
 
 # Virtual environments
-.env
 .venv/
-env/
+venv/
 venv/
 pip-wheel-metadata/
 
@@ -17,12 +19,15 @@ pip-wheel-metadata/
 .vscode/
 .history/
 
-# Devcontainer + Docker (optional if you want to exclude)
+# JetBrains IDE settings (optional)
+.idea/
+
+# Devcontainer + Docker (optional if you want to exclude for now)
 .devcontainer/
 Dockerfile
+docker-compose.override.yml
 *.log
 *.tar
-docker-compose.override.yml
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
@@ -32,3 +37,26 @@ docker-compose.override.yml
 
 # PyQt5 build cache (if used)
 build/
+
+# Python egg info
+*.egg-info/
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Compiled Python packages (wheels)
+*.whl
+
+# Distribution / packaging
+dist/
+
+# Editor swap files
+*.swp
+*.swo
