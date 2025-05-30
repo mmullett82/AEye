@@ -8,7 +8,7 @@ from skimage import color
 from utils import config
 
 # ---- Config ----
-TARGET_SERIAL = "YLAF20221208VO"
+TARGET_SERIAL = "YLAF20221208V0"
 BOX_SIZE = config.BOX_SIZE
 
 # ---- Enhanced Camera Detection ----
